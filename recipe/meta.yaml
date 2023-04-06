@@ -1,5 +1,5 @@
 {% set name = "expression" %}
-{% set version = "4.2.3" %}
+{% set version = "4.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bce0b9a182dfbd02ecb5f2104c0033cb13efdddc1a8e6b0d81e7ee056048e3fe
+  sha256: 1bfb44b4b63b133abf201a23eeb800791dee239901382209f36c6b7bb4a735ff
 
 build:
   noarch: python
