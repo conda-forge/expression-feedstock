@@ -1,11 +1,11 @@
-About expression
-================
+About expression-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/expression-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/cognitedata/Expression
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/expression-feedstock/blob/main/LICENSE.txt)
 
 Summary: Practical functional programming for Python 3.9+
 
