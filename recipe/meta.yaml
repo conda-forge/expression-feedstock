@@ -1,5 +1,5 @@
 {% set name = "expression" %}
-{% set version = "4.3.0" %}
+{% set version = "5.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 89a23ee8b6426ef7ab9178e1896d42b2984e888c1d9038549fc98cd987cfe236
+  sha256: e36e15335e95123cc3cdd1bda49d141a71915f632af296802473b9a5c8cb26b7
 
 build:
   noarch: python
@@ -18,9 +18,9 @@ requirements:
   host:
     - pip
     - poetry-core >=1.0.0
-    - python >=3.9,<4
+    - python >=3.11,<4.0
   run:
-    - python >=3.9,<4
+    - python >=3.11,<4.0
     - typing-extensions >=4.1.1,<5.0.0
 
 test:
