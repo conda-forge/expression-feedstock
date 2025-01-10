@@ -1,6 +1,6 @@
-{% set python_min = '3.10' %}
+{% set python_min = "3.10" %}
 {% set name = "expression" %}
-{% set version = "5.3.0" %}
+{% set version = "5.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 07a43669622851a413897b118319b4c9ac03e8251b6228683ebbf22f12827122
+  sha256: 6c1ade8ce6231ca3ecbb03083d222ea8a041482ddad5c7d85dcbafc46992bb25
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
