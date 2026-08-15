@@ -1,14 +1,14 @@
 {% set python_min = "3.10" %}
 {% set name = "expression" %}
-{% set version = "5.6.0" %}
+{% set version = "5.7.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 454f6fe138347194a43c7f878d958efe9b84b9cc770e462010c7a52e18058065
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 4c5ea4247f871b8724ad580911ad73c1550fc653bb669daf2d49e4b645cc4770
 
 build:
   noarch: python
