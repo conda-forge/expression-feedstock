@@ -2,7 +2,8 @@ schema_version: 1
 
 context:
   name: expression
-  version: "5.8.0"
+  version: "6.0.0"
+  python_min: "3.12"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +11,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 2286e4ff71802420a69b235fa78fffdd21f404958524c1cb95133419f7f64e5f
+  sha256: e5676ad284b82379825860eda0f194cc135173a543130b9ff180239360c618a7
 
 build:
   number: 0
